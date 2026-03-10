@@ -7,6 +7,7 @@ import Features from './components/Features';
 import FeatureDeepDive from './components/FeatureDeepDive';
 import Testimonials from './components/Testimonials';
 import Differentiation from './components/Differentiation';
+import Pricing from './components/Pricing';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         <FeatureDeepDive />
         <Testimonials />
         <Differentiation />
+        <Pricing />
         <CTA />
       </main>
       <Footer />
